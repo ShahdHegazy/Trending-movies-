@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+body {
+    --bs-body-bg: #24243c;
+    --bs-body-font-family: 'Balsamiq Sans', cursive;
+}
+
+.navbar {
+    /* background-color: #24243c; */
+    position: fixed;
+}
+
+.navbar-brand,
+.nav-link {
+    --bs-navbar-brand-color: rgba(255, 255, 255, 0.9);
+    --bs-navbar-active-color: rgb(255, 255, 255, 0.9);
+    --bs-navbar-hover-color: rgb(255, 255, 255, 0.9);
+    --bs-navbar-color: rgb(255, 255, 255, 0.9);
+    --bs-navbar-disabled-color: rgb(255, 255, 255, 0.9);
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: white;
+    }
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.secondColor {
+    color: #949cb0;
+}
+
+.brd {
+    background-color: #a8a8a83d;
+    height: 2px;
+    margin: 50px 0px;
+}
